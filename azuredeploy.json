@@ -70,7 +70,7 @@
 
     "sshKeyPath": "[concat('/home/',parameters('adminUsername'),'/.ssh/authorized_keys')]",
 
-    "vnetName": "adminVnet",
+    "vnetName": "vnet",
     "vnetId": "[resourceId('Microsoft.Network/virtualNetworks', variables('vnetName'))]",
     "vnetaddressPrefix": "10.0.0.0/16",
 
